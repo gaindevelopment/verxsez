@@ -1,0 +1,17 @@
+﻿/* Enhanced button */
+button {
+  background-color: #1e90ff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3742fa;
+}
+
+/* Input focus effect */
+input:focus, select:focus {
+  outline: none;
+  border: 2px solid #1e90ff;
+  background-color: rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Website Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="galaxy-background">
+    <div class="stars"></div>
+    <div class="shooting-stars"></div>
+  </div>
+  <div class="container">
+    <h1>Create Your Custom Website</h1>
+    <p>Each website costs <strong>$5</strong> and lasts for <strong>15 days</strong>.</p>
+    <form id="builderForm">
+      <label>
+        Primary Color:
+        <input type="color" name="primaryColor" required />
+      </label>
+      <label>
+        Secondary Color:
+        <input type="color" name="secondaryColor" required />
+      </label>
+      <label>
+        Website Title:
+        <input type="text" name="title" required />
+      </label>
+      <label>
+        Logo URL:
+        <input type="url" name="logoUrl" required />
+      </label>
+      <label>
+        Custom Text:
+        <input type="text" name="customText" required />
+      </label>
+      <label>
+        Font:
+        <select name="font" required>
+          <option value="Arial">Arial</option>
+          <option value="Verdana">Verdana</option>
+          <option value="Georgia">Georgia</option>
+          <option value="Courier New">Courier New</option>
+          <option value="Times New Roman">Times New Roman</option>
+        </select>
+      </label>
+      <button type="submit">Create Website</button>
+    </form>
+    <div id="redirectMessage" class="hidden">
+      <h2>Next Steps</h2>
+      <p>To complete your website creation, please contact <strong>verxsez</strong> on Discord.</p>
+      <p>Provide the following details:</p>
+      <div id="transcript"></div>
+      <p>Send the payment of <strong>$5</strong> in Litecoin (LTC) to the following address:</p>
+      <p><strong>Lf3dvzLaLZraPXhvS3WjAs9KzwkXAFkfrQ</strong></p>
+      <p>Alternatively, you can also pay using Ethereum (ETH) to the following address:</p>
+      <p><strong>0x520294b2A200A6d4F4138E053E74441eE500452f</strong></p>
+      <p>Gift cards are also accepted.</p>
+      <p><em>You can buy this entire website and its code from <strong>verxsez</strong> on Discord.</em></p>
+    </div>
+    <div class="support-link">
+      <a href="support.html">Support</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
